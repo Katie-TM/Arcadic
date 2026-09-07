@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcadic | Retro Gaming</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">ARCADIC<span>_</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="index.html">HOME</a>
+      <a href="gaming.html">GAMING</a>
+      <a href="shop.html">SHOP <span class="cart-count">0</span></a>
+      <a href="blog.html">BLOG</a>
+      <a href="history.html">HISTORY</a><a id="account-nav" href="signup.html">SIGN UP</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero scanlines">
+      <div>
+        <p class="eyebrow">WELCOME TO THE ARCADE</p>
+        <h1>LEVEL UP<br><span>THE 90s</span></h1>
+        <p class="hero-copy">A pixel-powered trip through classic games, arcade culture, retro tech and the people who still love it.</p>
+        <div class="hero-buttons">
+          <a class="btn rainbow-btn" href="gaming.html">PLAY GAMES</a>
+          <a class="btn ghost-btn" href="history.html">EXPLORE HISTORY</a>
+        </div>
+      </div>
+      <div class="pixel-art hero-art" aria-label="Decorative pixel arcade">
+        <div class="arcade-machine"><div class="screen">ARCADIC</div><div class="controls">● ● ■</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">PRESS START</p><h2>WHAT WAS GAMING LIKE IN THE 90s?</h2></div>
+        <span class="badge">1990 → 1999</span>
+      </div>
+      <div class="three-grid">
+        <article class="card neon-pink"><span class="big-icon">🕹️</span><h3>ARCADES</h3><p>Arcades were social hotspots. You fed coins into machines, battled friends for high scores and learned games one life at a time.</p></article>
+        <article class="card neon-blue"><span class="big-icon">📺</span><h3>HOME CONSOLES</h3><p>16-bit consoles gave bedrooms their own gaming worlds. Cartridges, wired controllers and split-screen multiplayer were everywhere.</p></article>
+        <article class="card neon-green"><span class="big-icon">💿</span><h3>A NEW ERA</h3><p>3D graphics, CDs and bigger worlds arrived. Gaming started moving from simple scores towards stories, characters and exploration.</p></article>
+      </div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="section-heading"><div><p class="eyebrow">FROM THE COMMUNITY</p><h2>RECENT BLOGS</h2></div><a class="text-link" href="blog.html">VIEW ALL →</a></div>
+      <div id="home-posts" class="post-grid"></div>
+    </section>
+
+    <section class="section cta-panel">
+      <p class="eyebrow">YOUR TURN</p><h2>GOT A RETRO STORY?</h2>
+      <p>Create your own Arcadic post and share your favourite games, memories and collections.</p>
+      <a class="btn rainbow-btn" href="blog.html">WRITE A BLOG</a>
+    </section>
+  </main>
+  <footer>© 2026 ARCADIC // INSERT COIN // KEEP PLAYING</footer>
+  <script src="script.js"></script>
+</body>
+</html>
