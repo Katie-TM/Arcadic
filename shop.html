@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcadic | Shop</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="logo" href="index.html">ARCADIC<span>_</span></a><button class="menu-toggle">☰</button><nav class="nav" id="nav"><a href="index.html">HOME</a><a href="gaming.html">GAMING</a><a class="active" href="shop.html">SHOP <span class="cart-count">0</span></a><a href="blog.html">BLOG</a><a href="history.html">HISTORY</a><a href="signup.html" id="account-nav">SIGN UP</a></nav></header>
+<main>
+<section class="page-hero"><p class="eyebrow">PIXEL MARKET</p><h1>RETRO<br><span>SHOP</span></h1><p>Level up your setup with arcade-inspired hardware and nostalgic collectables.</p></section>
+<section class="section"><div class="shop-grid" id="shop-grid"></div></section>
+<div class="product-modal" id="product-modal" aria-hidden="true">
+  <div class="product-modal-backdrop" data-close-product></div>
+  <article class="product-detail" role="dialog" aria-modal="true" aria-labelledby="detail-name">
+    <button class="product-close" id="product-close" aria-label="Close product details">×</button>
+    <div class="detail-art" id="detail-art">🕹️</div>
+    <div class="detail-info">
+      <p class="eyebrow">ARCADIC MARKET // PRODUCT FILE</p>
+      <h2 id="detail-name">PRODUCT</h2>
+      <div class="detail-rating">★★★★★ <span>ARCADIC VERIFIED</span></div>
+      <p class="detail-description" id="detail-description"></p>
+      <div class="detail-price" id="detail-price">£0.00</div>
+      <div class="detail-meta" id="detail-meta"></div>
+      <div class="detail-actions">
+        <button class="btn rainbow-btn" id="detail-add">ADD TO CART</button>
+        <button class="btn ghost-btn" data-close-product>BACK TO SHOP</button>
+      </div>
+    </div>
+  </article>
+</div>
+<section class="section cart-panel"><div class="section-heading"><h2>YOUR CART</h2><button class="text-link" id="clear-cart">CLEAR CART</button></div><div id="cart-items"></div><div class="cart-total">TOTAL: <strong id="cart-total">£0.00</strong></div><button class="btn rainbow-btn" id="checkout">CHECKOUT</button></section>
+</main><footer>© 2026 ARCADIC // INSERT COIN // KEEP PLAYING</footer><script src="script.js"></script>
+</body></html>

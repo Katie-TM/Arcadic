@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcadic | Gaming</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="logo" href="index.html">ARCADIC<span>_</span></a><button class="menu-toggle">☰</button><nav class="nav" id="nav"><a href="index.html">HOME</a><a class="active" href="gaming.html">GAMING</a><a href="shop.html">SHOP <span class="cart-count">0</span></a><a href="blog.html">BLOG</a><a href="history.html">HISTORY</a><a href="signup.html" id="account-nav">SIGN UP</a></nav></header>
+<main>
+<section class="page-hero"><p class="eyebrow">INSERT COIN</p><h1>ARCADE<br><span>ZONE</span></h1><p>Play three mini retro-inspired games directly in your browser. No downloads. No quarters.</p></section>
+<section class="section">
+  <div class="game-tabs">
+    <button class="game-tab active" data-game="space">SPACE INVADERS</button>
+    <button class="game-tab" data-game="pacman">PAC-MAN</button>
+    <button class="game-tab" data-game="donkey">DONKEY KONG</button>
+  </div>
+  <div class="arcade-wrap">
+    <div class="game-title" id="game-title">SPACE INVADERS</div>
+    <canvas id="gameCanvas" width="720" height="420"></canvas>
+    <div class="game-controls" id="game-help">← → move • SPACE fire • ENTER restart</div>
+    <div class="touch-controls" id="touch-controls" aria-label="Mobile game controls"></div>
+    <button class="btn rainbow-btn" id="start-game">START GAME</button>
+    <p class="score-line">SCORE: <strong id="score">0</strong> <span id="game-status">READY</span></p>
+  </div>
+  <div class="scoreboard" aria-live="polite">
+    <div class="scoreboard-heading">
+      <div><p class="eyebrow">HIGH SCORES</p><h2 id="scoreboard-title">SPACE INVADERS</h2></div>
+      <span class="scoreboard-badge">TOP 10</span>
+    </div>
+    <div class="scoreboard-head"><span>#</span><span>PLAYER</span><span>DATE</span><span>SCORE</span></div>
+    <div id="scoreboard-list"></div>
+    <p class="scoreboard-note">Finish a game while logged in to add your display name to the board.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="info-banner"><strong>TIP:</strong> These are original mini-games inspired by classic arcade mechanics, not copies of the original commercial games.</div>
+</section>
+</main><footer>© 2026 ARCADIC // INSERT COIN // KEEP PLAYING</footer><script src="script.js"></script>
+</body></html>
